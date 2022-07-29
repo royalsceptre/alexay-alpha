@@ -11,7 +11,7 @@ const Introduce = () => {
                         <div className="ml-[41px] float-left w-[calc(100%-264px)] text-[32px]">
                             Chat with an Expert 1:1
                         </div>
-                        <div className="text-[20px] leading-[28px] mt-[20px] block text-[#000] font-semibold">
+                        <div className="text-[16px] float-left leading-[28px] mt-[20px] block text-[#000] font-semibold">
                         Connect with verified Experts in minutes, 24/7. You can save hundreds every time you use it.
                         </div>
                     </div>
