@@ -6,6 +6,9 @@ import HowItWorks from "./components/worksmanagement";
 import Review from "./components/reviewcarousel";
 import SecurityBage from "./components/securitybage";
 import CompanyMeeting from "./components/meeting";
+import IntroductQuestion from "./components/introductquestion";
+import Footer from "./components/footer";
+import ChatBox from "./components/chatbox";
 function App() {
   return (
     <div>
@@ -16,6 +19,9 @@ function App() {
         <Review />
         <SecurityBage />
         <CompanyMeeting />
+        <IntroductQuestion />
+        <Footer />
+        <ChatBox />
     </div>
   );
 }
