@@ -4,6 +4,7 @@ import Introduce from "./components/introduce";
 function App() {
   return (
     <div>
+      
         <ImageSlider />
         <Introduce />
     </div>
