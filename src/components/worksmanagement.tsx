@@ -7,9 +7,22 @@ const HowItWorks = () => {
                 <ul className="pl-[0] m-0 l-[-11px]">
                     <li className="bg-[url('https://ww2-secure.justanswer.com/static/sip/btc/how-it-works/connect.svg')] block mb-[61px] pl-[98px] bg-no-repeat">
                         <h3 className="text-[#000] text-[32px] leading-44px m-0">Connect</h3>
+                        <p className="text-[#000] text-[20px] leading-[28px] m-0">
+                        Tell the Experts' assistant what's going on so that she can find the best Expert for your situation.
+                        </p>
                     </li>
-                    <li></li>
-                    <li></li>
+                    <li className="bg-[url('https://ww2-secure.justanswer.com/static/sip/btc/how-it-works/back_forse.svg')] block mb-[61px] pl-[98px] bg-no-repeat">
+                        <h3 className="text-[#000] text-[32px] leading-44px m-0">Go back-and-forth</h3>
+                        <p className="text-[#000] text-[20px] leading-[28px] m-0">
+                        Connect with the Experts via email, text or phone. Include photos, documents, and more.
+                        </p>
+                    </li>
+                    <li className="bg-[url('https://ww2-secure.justanswer.com/static/sip/btc/how-it-works/back_forse.svg')] block mb-[61px] pl-[98px] bg-no-repeat">
+                        <h3 className="text-[#000] text-[32px] leading-44px m-0">Stay protected</h3>
+                        <p className="text-[#000] text-[20px] leading-[28px] m-0">
+                        You have instant access to thousands of Experts, 24/7, for peace of mind.
+                        </p>
+                    </li>
                 </ul>
                 </div>
             </div>
