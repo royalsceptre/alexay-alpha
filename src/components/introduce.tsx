@@ -8,7 +8,7 @@ const Introduce = () => {
                         <picture>
                             <img src="https://ww2-secure.justanswer.com/static/sip/btc/membership-benefits/general_tnt_1_v1.jpg" className="rounded-full border-[10px] h-auto float-left w-[223px] block" alt="Chat with an Expert" />
                         </picture>
-                        <div className="ml-[41px] float-left w-[calc(100%-264px)] text-[32px]">
+                        <div className="float-left w-[calc(100%-264px)] text-[32px]">
                             Chat with an Expert 1:1
                         </div>
                         <div className="text-[16px] float-left leading-[28px] mt-[20px] block text-[#000] ml-[43px]">
@@ -19,7 +19,7 @@ const Introduce = () => {
                         <picture>
                             <img src="https://ww2-secure.justanswer.com/static/sip/btc/membership-benefits/general_tnt_2_v1.jpg" className="rounded-full border-[10px] h-auto float-left w-[223px] block" alt="Chat with an Expert" />
                         </picture>
-                        <div className="ml-[41px] float-left w-[calc(100%-264px)] text-[32px]">
+                        <div className="float-left w-[calc(100%-264px)] text-[32px]">
                             Instant deals
                         </div>
                         <div className="text-[16px] float-left leading-[28px] mt-[20px] block text-[#000] ml-[43px]">
@@ -30,7 +30,7 @@ const Introduce = () => {
                         <picture>
                             <img src="https://ww2-secure.justanswer.com/static/sip/btc/membership-benefits/general_tnt_3_v1.jpg" className="rounded-full border-[10px] h-auto float-left w-[223px] block" alt="Chat with an Expert" />
                         </picture>
-                        <div className="ml-[41px] float-left w-[calc(100%-264px)] text-[32px]">
+                        <div className="float-left w-[calc(100%-264px)] text-[32px]">
                             Global travel assistance
                         </div>
                         <div className="text-[16px] float-left leading-[28px] mt-[20px] block text-[#000] ml-[43px]">
@@ -41,7 +41,7 @@ const Introduce = () => {
                         <picture>
                             <img src="https://ww2-secure.justanswer.com/static/sip/btc/membership-benefits/general_tnt_4_v1.jpg" className="rounded-full border-[10px] h-auto float-left w-[223px] block" alt="Chat with an Expert" />
                         </picture>
-                        <div className="ml-[41px] float-left w-[calc(100%-264px)] text-[32px]">
+                        <div className="float-left w-[calc(100%-264px)] text-[32px]">
                             Financial wellness
                         </div>
                         <div className="text-[16px] float-left leading-[28px] mt-[20px] block text-[#000] ml-[43px]">
@@ -52,7 +52,7 @@ const Introduce = () => {
                         <picture>
                             <img src="https://ww2-secure.justanswer.com/static/JA54186/membership-savings.jpg" className="rounded-full border-[10px] h-auto float-left w-[223px] block" alt="Chat with an Expert" />
                         </picture>
-                        <div className="ml-[41px] float-left w-[calc(100%-264px)] text-[32px]">
+                        <div className="float-left w-[calc(100%-264px)] text-[32px]">
                         Only 49 €/month. Cancel anytime.
                         </div>
                         <div className="text-[16px] float-left leading-[28px] mt-[20px] block text-[#000] ml-[43px]">
