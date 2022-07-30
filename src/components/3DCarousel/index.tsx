@@ -225,8 +225,8 @@ export class Carousel extends React.Component<
         }}
       >
         {this.state.slides && this.state.slides.length > 0 && (
-          <div className="slider-container">
-            <div className="w-[100%] h-[auto] text-[40px] text-center text-[white]">
+          <div className="slider-container ">
+            <div className="w-[100%] h-[auto] 2xl:text-[40px] text-center text-[white]">
               Thousands of highly rated, <br></br> verified Experts
             </div>
             <div className="w-[100%] h-[auto] text-[18px] text-center text-[white]">Specialties include: Tech, Legal, Medical, Car and more.</div>

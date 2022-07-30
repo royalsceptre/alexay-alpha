@@ -1,7 +1,7 @@
 const Introduce = () => {
   return (
     <>
-      <div className="2xl:w-[calc(100%-811px)] pl-[125px] pt-[80px]">
+      <div className="2xl:w-[calc(100%-811px)] 2xl:pl-[125px] pl-[20px] pt-[80px]">
         <div className="text-[44px] text-[#333] font-semibold leading-[59px] h-59px">
           What's included:
         </div>
@@ -14,7 +14,7 @@ const Introduce = () => {
                 alt="Chat with an Expert"
               />
             </picture>
-            <div className="ml-[41px] float-left w-[calc(100%-264px)]">
+            <div className="2xl:ml-[41px] float-left 2xl:w-[calc(100%-264px)]">
               <h3 className="text-[30px] leading-[44px] text-[#000] mt-[17px]">
                 Chat with an Expert 1:1
               </h3>
@@ -32,7 +32,7 @@ const Introduce = () => {
                 alt="Chat with an Expert"
               />
             </picture>
-            <div className="ml-[41px] float-left w-[calc(100%-264px)]">
+            <div className="2xl:ml-[41px] float-left 2xl:w-[calc(100%-264px)]">
               <h3 className="text-[30px] leading-[44px] text-[#000] mt-[17px]">
                 Instant deals
               </h3>
@@ -52,7 +52,7 @@ const Introduce = () => {
                 alt="Chat with an Expert"
               />
             </picture>
-            <div className="ml-[41px] float-left w-[calc(100%-264px)]">
+            <div className="2xl:ml-[41px] float-left 2xl:w-[calc(100%-264px)]">
               <h3 className="text-[30px] leading-[44px] text-[#000] mt-[17px]">
                 Global travel assistance
               </h3>
@@ -72,7 +72,7 @@ const Introduce = () => {
                 alt="Chat with an Expert"
               />
             </picture>
-            <div className="ml-[41px] float-left w-[calc(100%-264px)]">
+            <div className="2xl:ml-[41px] float-left 2xl:w-[calc(100%-264px)]">
               <h3 className="text-[30px] leading-[44px] text-[#000] mt-[17px]">
                 Financial wellness
               </h3>
@@ -92,7 +92,7 @@ const Introduce = () => {
                 alt="Chat with an Expert"
               />
             </picture>
-            <div className="ml-[41px] float-left w-[calc(100%-264px)]">
+            <div className="2xl:ml-[41px] float-left 2xl:w-[calc(100%-264px)]">
               <h3 className="text-[30px] leading-[44px] text-[#000] mt-[17px]">
                 Only 49 €/month. Cancel anytime.
               </h3>

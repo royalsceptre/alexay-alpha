@@ -4,7 +4,7 @@ const ImageSlider = () => {
       <div className="bg-cover relative h-[100vh]">
         <div className="bg-[url('./assets/img/General.jpg')] bg-cover bg-center bg-no-repeat w-full h-full absolute">
           <div className="absolute w-full h-full top-0 ">
-            <div className="pt-[55px] xl:pl-[125px] 2xl: pl-[130px] w-[calc(100%-677px)]">
+            <div className="pt-[55px] xl:pl-[125px] 2xl:pl-[130px] pl-[10px] w-[calc(100%-677px)]">
               <div className="mb-48px flex items-end">
                 <div className="h-[53px] w-[170px]">
                   <svg
@@ -24,26 +24,27 @@ const ImageSlider = () => {
                   </svg>
                 </div>
                 <div className="text-[30px] text-white italic leading-[23px] ml-[8px]">
-                  Ask an Expert
+                  Ask&nbsp;an&nbsp;Expert
                 </div>
               </div>
-              <div className="absolute bottom-[164px] xl:w-[calc(100%-677px)]">
-                <div className="text-white text-[3.75rem] w-[696px] leading-[4.6875rem]">
+              <div className="absolute 2xl:bottom-[164px] bottom-[60px] xl:w-[calc(100%-677px)]">
+                <div className="text-white 2xl:text-[3.75rem] 2xl:w-[696px] 2xl:leading-[4.6875rem] text-[2rem] leading-[2.5rem]">
                   Chat with an Expert in minutes, 24/7
                 </div>
-                <div className="xl:w-full text-white leading-[40px]">
+                <div className="w-full h-[10px]"></div>
+                <div className="xl:w-full text-white 2xl:leading-[40px]">
                   <span className="w-[8px] h-[8px] inline-block rounded-full bg-white mr-[11px] align-middle"></span>
                   <span className="xl:text-[24px]">
                     Talk to doctors, lawyers, vets, tech support & mechanics
                   </span>
                 </div>
-                <div className="xl:w-full text-white leading-[40px]">
+                <div className="xl:w-full text-white 2xl:leading-[40px]">
                   <span className="w-[8px] h-[8px] inline-block rounded-full bg-white mr-[11px] align-middle"></span>
                   <span className="xl:text-[24px]">
                     12,000+ Experts from Appraisals to Zoology
                   </span>
                 </div>
-                <div className="xl:w-full text-white leading-[40px]">
+                <div className="xl:w-full text-white 2xl:leading-[40px]">
                   <span className="w-[8px] h-[8px] inline-block rounded-full bg-white mr-[11px] align-middle"></span>
                   <span className="xl:text-[24px]">
                     Unlimited chats, plus global travel protection and instant
@@ -52,10 +53,10 @@ const ImageSlider = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full absolute bottom-0 left-auto ml-0 flex h-[88px] justify-between">
+            <div className="w-full absolute bottom-0 left-auto ml-0 flex 2xl:h-[88px] h-[50px] justify-between">
               {/* <div className="ml-auto mr-auto text-left max-w-md w-full bg-[#ffadad59] 2xl:h-[88px]"> */}
               <div className="w-[calc(100%-877px)] flex justify-between">
-                <div className="h-full inline-block ml-[130px]">
+                <div className="h-full inline-block 2xl:ml-[130px] ml-[30px]">
                 <svg
                     className="fill-white"
                     xmlns="http://www.w3.org/2000/svg"
