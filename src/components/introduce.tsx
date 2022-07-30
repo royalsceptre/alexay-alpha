@@ -24,6 +24,8 @@ const Introduce = () => {
               </p>
             </div>
           </div>
+
+          
           <div className="inline-block mb-[55px]">
             <picture>
               <img
