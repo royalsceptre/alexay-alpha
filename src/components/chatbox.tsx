@@ -15,7 +15,7 @@ const ChatBox = () => {
                   <div className="w-[96px] h-[96px] overflow-hidden flex-shrink relative">
                     <div className="w-full h-full">
                       <img
-                        className="rounded-full border-[8px] border-solid border-[hsla(0,0%, 100%, 1)] block"
+                        className="rounded-full border-[8px] border-solid w-[30px] border-[hsla(0,0%, 100%, 1)] block"
                         src="https://secure.justanswer.com/uploads/BA/barrenrock/2011-10-19_215925_JamesJAFinal.200x200.jpg"
                         alt="James"
                       />
