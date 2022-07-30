@@ -55,8 +55,8 @@ const ImageSlider = () => {
             </div>
             <div className="w-full absolute bottom-0 left-auto ml-0 flex 2xl:h-[88px] h-[50px] justify-between">
               {/* <div className="ml-auto mr-auto text-left max-w-md w-full bg-[#ffadad59] 2xl:h-[88px]"> */}
-              <div className="w-[calc(100%-877px)] flex justify-between">
-                <div className="h-full inline-block 2xl:ml-[130px] ml-[30px]">
+              <div className="2xl:w-[calc(100%-877px)] w-full flex justify-between">
+                <div className="h-full inline-block 2xl:ml-[130px] ml-[10px]">
                 <svg
                     className="fill-white"
                     xmlns="http://www.w3.org/2000/svg"
