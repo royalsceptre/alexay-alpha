@@ -1,8 +1,32 @@
-/* eslint-disable jsx-a11y/alt-text */
+import React, { useEffect } from "react";
 const ChatBox = () => {
+  useEffect(() => {
+    var Tawk_API = Tawk_API || {},
+      Tawk_LoadStart = new Date();
+    (function () {
+      var s1 = document.createElement("script"),
+        s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = "https://embed.tawk.to/62e9158237898912e960d469/1g9f7o1oh";
+      s1.charset = "UTF-8";
+      s1.setAttribute("crossorigin", "*");
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+    Tawk_API.onLoad = function () {
+      console.log("chat loaded");
+      Tawk_API.setAttributes(
+        {
+          name: "Test Name",
+          email: "email@email.com",
+          hash: "hash value",
+        },
+        function (error) {}
+      );
+    };
+  }, []);
   return (
     <>
-      <div className="fixed z-[999999] 2xl:w-[686px] 2xl:top-[80px] 2xl:bottom-[40px] 2xl:right-[125px]">
+      {/* <div className="fixed z-[999999] 2xl:w-[686px] 2xl:top-[80px] 2xl:bottom-[40px] 2xl:right-[125px]">
         <div>
           <div className="shadow-md bg-[#f5f5f5] w-full absolute top-0 bottom-0 left-0 overflow-hidden rounded-[10px]">
             <div className="overflow-hidden">
@@ -141,7 +165,7 @@ const ChatBox = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
