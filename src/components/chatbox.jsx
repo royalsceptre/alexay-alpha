@@ -26,6 +26,7 @@ const ChatBox = () => {
   }, []);
   return (
     <>
+    
       {/* <div className="fixed z-[999999] 2xl:w-[686px] 2xl:top-[80px] 2xl:bottom-[40px] 2xl:right-[125px]">
         <div>
           <div className="shadow-md bg-[#f5f5f5] w-full absolute top-0 bottom-0 left-0 overflow-hidden rounded-[10px]">
