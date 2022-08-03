@@ -4,7 +4,7 @@ const ChatBox = () => {
     var Tawk_API = Tawk_API || {},
       Tawk_LoadStart = new Date();
       Tawk_API.onLoad = function(){
-        Tawk_API.hideWidget();
+        Tawk_API.showWidget();
       };
     (function () {
       var s1 = document.createElement("script"),
